@@ -13,9 +13,16 @@
   - Add a new payment to database
   - Expected data:
 
-  ```json
-  {
-    "name": "Example",
-    "price": 1200,
-    "category": "example"
-  }
+  ```json{
+    "data": {
+        "_id": "6210f98db2450971ec98aca1",
+        "category": "example",
+        "name": "Example",
+        "price": 1200
+    },
+    "status": 201
+}
+  
+- [DELETE] /:id
+
+  - delete payment by id
